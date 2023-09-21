@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionaire</title>
+</head>
+<body>
+    <form action="mailto:aisser.cool@gmail.com" method="POST">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required placeholder="Enter your name"><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required placeholder="Enter your surname"><br>
+        
+        <fieldset>
+            <legend>Select your gender:</legend>
+            <input type="radio" name="gender" id="g_male" value="MALE"> <label for="">Male</label> <br>
+            <input type="radio" name="gender" id="g_female" value="FEMALE"> <label for="">Female</label> <br>
+            <input type="radio" name="gender" id="g_walmart_bag" value="WALMARTBAG" checked> <label for="">Walmart Bag</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose programming languages you know:</legend>
+            <label for="pl_java"> <input type="checkbox" name="pl_lang" id="pl_java" value="JAVA">Java</label> <br>
+            <label for="pl_c"> <input type="checkbox" name="pl_lang" id="pl_c" value="C">C</label> <br>
+            <label for="pl_python"><input type="checkbox" name="pl_lang" id="pl_python" value="PYTHON">Python</label> <br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
