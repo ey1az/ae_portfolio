@@ -16,9 +16,77 @@ h1 {
     font-size: 36px;
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
     font-size: 25px;
 }
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d7d7d7;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.profile-photo img {
+    max-width: 60%;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-left: 5px;
+}
+
+.profile h1 {
+    font-size: 24px;
+}
+
+.languages {
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color:#1569bc;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
 
 .container {
     max-width: 800px;
