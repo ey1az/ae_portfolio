@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon2.ico">
+    <title>Amin Eylazov - Questionnaire</title>\
+    <link rel="stylesheet" href="per_web_style.css">
+
+</head>
+<body>
+    <img src="https://wallpaperaccess.com/full/802645.jpg" alt="Background Image" style="width: 100%; position: absolute; top: 0; left: 0; z-index: -1;">
+
+    <header>
+        <h1 style="font-family: Arial">Amin Eylazov</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="per_web.html" style="font-size:larger">Home</a></li>
+            <li><a href="about_me.html" style="font-size:larger">About Me</a></li>
+            <li><a href="contact.html" style="font-size:larger">Contact Me</a></li>
+            <li><a href="questi.html" style="font-size:larger">Questionnaire</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>• Questionnaire •</h2>
+        <form action="mailto:amn.eylazov@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Last Name:</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <fieldset>
+                <legend>Enter your Birthdate:</legend>
+                <input type="date" name="birth_date" id="b_date" required>  
+            </fieldset>
+            <fieldset>
+                <legend>Select your Gender:</legend>
+                <label for="g_male"><input type="radio" name="gender" id="g_male" value="MALE"> Male</label> <br>
+                <label for="g_female"><input type="radio" name="gender" id="g_female" value="FEMALE"> Female</label> <br>
+                <label for="g_other"><input type="radio" name="gender" id="g_other" value="OTHER"> Other</label> <br>
+                <label for="g_pnts"><input type="radio" name="gender" id="g_pnts" value="PNTS" checked> Prefer not to say</label> <br>
+            </fieldset>
+            <fieldset>
+                <legend>Choose programming languages you know:</legend>
+                <label for="pl_java"> <input type="checkbox" name="prog_lang" id="pl_java" value="JAVA"> Java</label> <br>
+                <label for="pl_c"> <input type="checkbox" name="prog_lang" id="pl_c" value="C"> C</label> <br>
+                <label for="pl_cpp"> <input type="checkbox" name="prog_lang" id="pl_cpp" value="C_PP"> C++</label> <br>
+                <label for="pl_swift"> <input type="checkbox" name="prog_lang" id="pl_swift" value="SWIFT"> Swift</label> <br>
+                <label for="pl_php"> <input type="checkbox" name="prog_lang" id="pl_php" value="PHP"> PHP</label> <br>
+                <label for="pl_python"> <input type="checkbox" name="prog_lang" id="pl_python" value="PYTHON"> Python</label> <br>
+            </fieldset>
+            <fieldset>
+                <legend>The number of languages you can speak:</legend>
+                <label for="numl_1"><input type="radio" name="spoken_lang_num" id="sl_1" value="1L" checked> 1</label> <br>
+                <label for="numl_2"><input type="radio" name="spoken_lang_num" id="sl_2" value="2L"> 2</label> <br>
+                <label for="numl_3"><input type="radio" name="spoken_lang_num" id="sl_3" value="3L"> 3</label> <br>
+                <label for="numl_4"><input type="radio" name="spoken_lang_num" id="sl_4" value="4L"> 4</label> <br>
+                <label for="numl_5+"><input type="radio" name="spoken_lang_num" id="sl_5+" value="MORETHAN_5L"> 5+</label> <br>
+            </fieldset>
+            <br>
+            <div class="form-group">
+                <label for="message">Please rate my website in a few sentences:</label>
+                <textarea id="message" name="message_rating" rows="4" required></textarea>
+            </div>
+            <br>
+            <div class="form-group" style="text-align:center">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
