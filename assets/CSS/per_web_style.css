@@ -12,6 +12,14 @@ header {
     padding: 5px;
 }
 
+hr{
+    height: 5px;
+    width: 50%;
+    background-color: #1569bc;
+    border-color: #1569bc;
+    border-radius: 50%;
+}
+
 h1 {
     font-size: 36px;
 }
@@ -46,12 +54,17 @@ nav ul li a {
 }
 
 .profile-photo img {
-    max-width: 60%;
+    height: 250px;
+    width: 200px;
     border-radius: 50%;
 }
 
+.profile-photo:hover img {
+    transform: scale(1.2);
+}
+
 .profile-info {
-    margin-left: 5px;
+    margin-left: 100px;
 }
 
 .profile h1 {
