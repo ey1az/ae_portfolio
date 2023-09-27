@@ -45,6 +45,16 @@ nav ul li a {
     text-decoration: none;
     color: #d7d7d7;
     font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+    text-transform:uppercase;
+    color: aquamarine;
+}
+
+a{
+    font-size: larger;
 }
 
 .profile {
@@ -117,11 +127,11 @@ label {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 .pdf-button:hover{
     background-color: #0056b3;
-    transition: all 0.3s ease;
 }
 
 input[type="text"],
@@ -141,11 +151,11 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
-    transition: all 0.3s ease;
 }
 
 .container {
