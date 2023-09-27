@@ -58,6 +58,7 @@ nav ul li a {
     width: 200px;
     border-radius: 50%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 .profile-photo:hover img {
@@ -120,6 +121,7 @@ label {
 
 .pdf-button:hover{
     background-color: #0056b3;
+    transition: all 0.3s ease;
 }
 
 input[type="text"],
@@ -143,6 +145,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3;
+    transition: all 0.3s ease;
 }
 
 .container {
