@@ -61,6 +61,11 @@ nav ul li a:hover{
 
 a{
     font-size: larger;
+    color:#0056b3;
+}
+
+#a1:hover{
+    color: red;
 }
 
 .profile {
@@ -83,6 +88,7 @@ a{
 
 .profile-info {
     margin-left: 100px;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -159,6 +165,8 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
 }
 
 input[type="submit"]:hover {
