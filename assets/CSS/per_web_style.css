@@ -56,7 +56,11 @@ nav ul li:hover{
 }
 
 nav ul li a:hover{
-    color: aquamarine;
+    color: aqua;
+}
+
+nav ul li.active a{
+    color: rgb(43, 43, 255);
 }
 
 a{
@@ -64,8 +68,15 @@ a{
     color:#0056b3;
 }
 
+#a1{
+    font-size: 30px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+}
+
 #a1:hover{
     color: red;
+    font-size: 40px;
 }
 
 .profile {
